@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 
 // Estructura de las preguntas del juego
@@ -34,6 +35,10 @@ void imprimirPregunta(Pregunta pregunta) {
 char capturarRespuesta() {
     //AGREGAR LA IMPLEMENTACIÓN PARA LEER LA RESPUESTA DEL JUGADOR.
     //NO MODIFIQUES LA FIRMA DE LA FUNCIÓN.
+    char respuesta;
+    respuesta = getch();
+    respuesta = toupper(respuesta);
+    return respuesta;
 }
 
 
