@@ -1,3 +1,3 @@
 # RepoEquipo
 
-Hola esto es un repositorio
+Lo elaboramos todops
