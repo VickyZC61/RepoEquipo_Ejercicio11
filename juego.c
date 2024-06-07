@@ -44,8 +44,17 @@ char capturarRespuesta() {
  * @param respuesta La respuesta ingresada por el usuario.
  * @return int - 1 si la respuesta es correcta, 0 si es incorrecta.
  */
-
+        //solucion de adan
 int verificarRespuesta(Pregunta pregunta, char respuesta) {
+    if(respuesta == respuestaCorrecta) {
+        printf("Respuesta correcta");
+        return 1;                       }
+        else{
+            Printf("Respuesta incorrecta, la respuesta correcta es %c", respuestaCorrecta)
+            return 0; }
+
+        }
+
     //AGREGAR LA IMPLEMENTACIÓN PARA VERIFICAR SI RESPONDIÓ BIEN LA PREGUNTA.
     //NO MODIFIQUES LA FIRMA DE LA FUNCIÓN. 
 }
